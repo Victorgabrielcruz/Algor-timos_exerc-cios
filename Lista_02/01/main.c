@@ -10,22 +10,39 @@ int  main(){
         printf("Digite o numero \n");
         scanf("%d", &numero);
         if(numero%2 == 0){
-            printf("%d é um numero par",numero);
-        }
-        else{
-            printf("%d é um numero impar",numero);
-        }    
-        while (op != 1 && op != 2)
-        {
-            printf("Resposta invalida, tente novamente:");
+            printf("%d é um numero par \n",numero);
+            printf("Deseja tentar novamente ?\n[1]sim\n[2]não\n");
             scanf("%d", &op); 
-            if(op==1 || op== 2){
-                break;
+            while (op != 1 && op != 2){
+               printf("Resposta invalida, tente novamente:");
+               scanf("%d", &op); 
+               if(op==1 || op== 2){
+                   break;
+               }
+            }
+           if(op== 2){
+               break;
             }
         }
-        if(op== 2){
-            break;
+        else if (numero%2==1){
+            printf("%d é um numero impar \n",numero);
+            printf("Deseja tentar novamente ?\n[1]sim\n[2]não\n");
+            scanf("%d", &op); 
+            while (op != 1 && op != 2){
+               printf("Resposta invalida, tente novamente:");
+               scanf("%d", &op); 
+               if(op==1 || op== 2){
+                   break;
+               }
+            }
+           if(op== 2){
+               break;
+            }
         }
+        else{
+            printf("Resposta invalida, tente novamente:");
+        }    
+
     }
     
     

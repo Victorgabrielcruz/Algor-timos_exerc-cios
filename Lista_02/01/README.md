@@ -1,20 +1,16 @@
-# Verificador de Par ou Ímpar
+# Par ou Ímpar
 
-Este programa é projetado para verificar se um número inteiro é par ou ímpar. Ele solicita ao usuário que insira um número e, em seguida, exibe uma mensagem indicando se o número é par ou ímpar. O usuário tem a opção de continuar inserindo números até decidir sair do programa.
-
-## Como Funciona
-
-1. **Inicialização**: O programa começa com a variável `op` definida como 1, indicando que o usuário deseja continuar inserindo números.
-2. **Loop Principal**: Um loop `while` é iniciado, que continua enquanto `op` for igual a 1.
-3. **Entrada do Usuário**: Dentro do loop, o programa solicita ao usuário que insira um número.
-4. **Verificação do Número**: O número inserido é verificado para determinar se é par ou ímpar usando o operador de módulo (`%`).
-5. **Exibição do Resultado**: Se o número for par, uma mensagem é exibida indicando que o número é par. Se for ímpar, uma mensagem é exibida indicando que o número é ímpar.
-6. **Decisão de Continuar**: Após verificar o número, o programa solicita ao usuário se deseja continuar inserindo números. Se o usuário inserir 1, o programa continua. Se inserir 2, o programa termina.
-7. **Tratamento de Entrada Inválida**: Se o usuário inserir qualquer outro valor, uma mensagem de erro é exibida e o usuário é solicitado a inserir novamente.
-
-## Uso
-
-Para usar este programa, compile o código C fornecido e execute o executável gerado. O programa solicitará que você insira um número. Após inserir o número, o programa exibirá se o número é par ou ímpar. Você pode continuar inserindo números até decidir sair do programa, inserindo 2 quando solicitado.
+Este programa em C lê um número inteiro do usuário e determina se o número é par ou ímpar. O programa também permite ao usuário repetir o processo de verificação quantas vezes desejar.
 
 
+## Explicação
+
+- O programa começa com a inclusão da biblioteca `stdio.h` para permitir operações de entrada e saída.
+- A função `main` é declarada, que é o ponto de entrada do programa.
+- Variáveis são declaradas para armazenar o número a ser verificado e a opção de escolha do usuário.
+- Um loop `while` é usado para permitir que o usuário repita o processo de entrada de dados e verificação quantas vezes desejar.
+- O usuário é solicitado a inserir um número inteiro.
+- O programa verifica se o número é par ou ímpar usando o operador de módulo (`%`). Se o número for divisível por 2 sem deixar resto, é par; caso contrário, é ímpar.
+- Com base no resultado da verificação, o programa informa ao usuário se o número é par ou ímpar.
+- O usuário tem a opção de repetir o processo ou sair do programa.
 
