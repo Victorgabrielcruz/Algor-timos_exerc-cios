@@ -1,3 +1,7 @@
+/* 
+**Inversão de Número de Três Dígitos:**
+   - Escreva um código em C que leia do teclado um número inteiro com três dígitos (no formato CDU - centena, dezena e unidade) e mostre o número invertido (no formato UDC). O número invertido deve ser armazenado em outra variável antes de ser mostrado.
+*/
 #include <stdio.h>
 int main(){
     int numero, op, unidade, dezena, centena, resultado;

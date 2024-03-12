@@ -1,3 +1,12 @@
+/* 
+**Dígito Verificador de Conta Corrente:**
+   - Escreva um código em C que leia uma conta corrente (sempre com 3 dígitos) e mostre o seu dígito verificador que é calculado da seguinte maneira:
+     - Primeiro, soma-se o número da conta com o seu inverso (CDU + UDC).
+     - Em seguida, multiplica-se cada dígito da soma por sua posição, sendo que a posição das unidades de milhar é 0, das centenas é 1, das dezenas é 2 e das unidades é 3.
+     - Depois, soma-se cada uma das multiplicações.
+     - Finalmente, o dígito verificador é o último dígito da soma anterior.
+
+*/
 #include <stdio.h>
 int UDC(int numero){
     int unidade, dezena, centena, resultado;

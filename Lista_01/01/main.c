@@ -1,4 +1,6 @@
-//Escreva um código em C que leia dois números inteiros do teclado, calcula a soma e exibe na tela;
+/* **Soma de Dois Números Inteiros:**
+   - Escreva um código em C que leia dois números inteiros do teclado, calcule a soma e exiba na tela.
+*/
 #include <stdio.h>
 int main(){
     int num1, num2, op;

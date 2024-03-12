@@ -1,3 +1,7 @@
+/* 
+**Salários Mínimos:**
+   - Escreva um código em C que leia o valor do salário de uma pessoa e imprima na tela quantos salários mínimos ela recebe.
+*/
 #include <stdio.h>
 int main(){
     //Escreva um código em C que leia o valor do salário de uma pessoa e imprima na tela quantos salários mínimos ela recebe

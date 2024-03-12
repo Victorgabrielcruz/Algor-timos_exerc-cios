@@ -1,3 +1,7 @@
+/* 
+**Diferença em Segundos para 01/01/1970:**
+   - Escreva um código em C que leia uma data completa do teclado (dia, mês e ano) e imprima na tela quantos segundos de diferença para o dia 01/01/1970. Considere a hora 00:00:00 para as duas datas, que todos os anos têm 365 dias e que todos os meses têm 30 dias.
+*/
 #include <stdio.h>
 int main(){
     int diaf, ano_inicial, anof,mesf,op,resultado;
