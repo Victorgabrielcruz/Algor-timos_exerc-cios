@@ -2,7 +2,7 @@
 **Estado da Água:**
    - Faça um algoritmo que leia a temperatura da água e mostre se ela está em estado sólido, líquido ou gasoso.
 */
-#include <stdint.h>
+#include <stdio.h>
 int main(){
     float temp;
     int op = 1;
@@ -32,5 +32,6 @@ int main(){
     } while (op==1);
     
     
+   return 0;
 
 }
