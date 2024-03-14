@@ -1,3 +1,7 @@
+/*
+**Divisão de Números:**
+   - Faça um programa para ler dois números, sendo que o segundo deve ser diferente de zero, e em seguida, realizar a divisão do primeiro pelo segundo número e imprimir o resultado na tela.
+*/
 #include <stdio.h>
 
 int main() {
