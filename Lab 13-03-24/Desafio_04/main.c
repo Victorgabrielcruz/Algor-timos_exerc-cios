@@ -1,3 +1,6 @@
+/*
+Este programa pergunta a velocidade de um carro e exibe uma mensagem dizendo se o usuário foi multado caso ultrapasse 80 Km/h. Em caso de multa, exibe o valor da multa.
+*/
 #include <stdio.h>
 int main(){
     float km,multa;

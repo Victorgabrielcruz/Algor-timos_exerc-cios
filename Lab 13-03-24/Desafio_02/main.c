@@ -1,5 +1,5 @@
 /*
-
+Este programa recebe dois valores do tipo inteiro x e y e calcula o valor de z usando a seguinte fórmula:
 */
 #include <stdio.h>
 #include <math.h>
