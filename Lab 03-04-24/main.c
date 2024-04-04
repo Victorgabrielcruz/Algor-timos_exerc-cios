@@ -220,7 +220,6 @@ int main(){
         if(op == 1){
             Cadastro(nome, &idade, &sexo, &CCT, &CQD, &cd);
             printf("\nCadastro realizado com sucesso\n");
-            printf("%d", idade);
         }
         else if(op == 2){
             RCQ(idade, sexo, CCT, CQD, cd);
